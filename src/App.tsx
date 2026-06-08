@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+
 import { motion, AnimatePresence } from 'motion/react';
 import { PROJECTS } from './data';
 import { 
@@ -383,7 +384,7 @@ Core Capabilities:
                   : 'bg-zinc-950/40 shadow-[0_30px_70px_rgba(0,0,0,0.85),_0_0_50px_rgba(139,92,246,0.04)] hover:shadow-[0_35px_80px_rgba(0,0,0,0.92),_0_0_60px_rgba(139,92,246,0.08)]'
               }`}>
                 <img
-                  src="/src/assets/images/Sanju.jpeg"
+                 src="/Sanju.jpeg"
                   alt="Sanjay Sahu - Portrait"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale-[8%] group-hover:grayscale-0 group-hover:scale-[1.03] transition-all duration-700 ease-out"
